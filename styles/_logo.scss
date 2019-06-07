@@ -1,0 +1,10 @@
+
+.logo{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-transform:uppercase;
+    letter-spacing:-.07rem;
+    line-height:1;
+    span:nth-child(1){font-weight:700;}
+    span:nth-child(2){font-family: 'Barlow Condensed', sans-serif;}
+    span:nth-child(3){font-weight:700; color:steelblue;}
+}
