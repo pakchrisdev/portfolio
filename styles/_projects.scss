@@ -30,12 +30,27 @@
                 }
                 p{font-size:1.15rem;}
             }
+            &-links{
+                margin:1rem 0 0 0;
+                a{
+                    display:block;
+                    width:125px;
+                    padding:.5rem 0;
+                    text-align:center; text-transform:uppercase;
+                }
+                .code{
+                    background:pink;
+                }
+                .site{
+                    background:yellow;
+                }
+            }
             &-desk{width:33.3%}
         }
         &:nth-child(odd){
             .projects_project_content{flex-direction:row-reverse;}
         }
-        &:nth-child(2){background:rgba(227, 242, 255, 0.6);}
-        &:nth-child(3){background:rgba(196, 192, 188, 0.6);;}
+        &:nth-child(even){background:rgba(230, 245, 255, 0.6);}
+        &:nth-child(odd){background:rgba(175, 180, 190, 0.6);;}
     }
 }

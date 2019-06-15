@@ -239,14 +239,14 @@ nav .nav-menu ul li a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 140px;
-  height: 140px;
+  width: 120px;
+  height: 120px;
   background: #e6e6e6;
   border-radius: 50%;
   margin: 0 2rem 0 0;
 }
 .about_skills-icons-icon i {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 .about_skills-icons-icon i.html5 {
   color: #db6548;
@@ -267,10 +267,11 @@ nav .nav-menu ul li a:hover {
   color: #a32a2a;
 }
 .about_skills-icons-icon img {
-  height: 5rem;
+  height: 4rem;
 }
 .about_skills-icons-icon p {
   font-size: 1.2rem;
+  color: #5f5f5f;
 }
 .about_skills-icons-icon:last-of-type i {
   margin: 0;
@@ -315,37 +316,81 @@ nav .nav-menu ul li a:hover {
 .projects_project_content-desc p {
   font-size: 1.15rem;
 }
+.projects_project_content-links {
+  margin: 1rem 0 0 0;
+}
+.projects_project_content-links a {
+  display: block;
+  width: 125px;
+  padding: 0.5rem 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+.projects_project_content-links .code {
+  background: pink;
+}
+.projects_project_content-links .site {
+  background: yellow;
+}
 .projects_project_content-desk {
   width: 33.3%;
 }
 .projects_project:nth-child(odd) .projects_project_content {
   flex-direction: row-reverse;
 }
-.projects_project:nth-child(2) {
-  background: rgba(227, 242, 255, 0.6);
+.projects_project:nth-child(even) {
+  background: rgba(230, 245, 255, 0.6);
 }
-.projects_project:nth-child(3) {
-  background: rgba(196, 192, 188, 0.6);
+.projects_project:nth-child(odd) {
+  background: rgba(175, 180, 190, 0.6);
 }
 
 .contact {
-  background: #646973;
+  background: #5a6469;
   color: #e6e6e6;
 }
 .contact .content {
   padding: 3rem 0;
 }
-.contact .github-icon {
-  width: 3.5rem;
-  height: 3.5rem;
-  background: #232323;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.contact h3 {
+  font-size: 1.5rem;
+}
+.contact h3 span {
+  font-weight: 400;
+}
+.contact-div {
+  margin: 0 0 0.5rem 0;
+  text-align: right;
+}
+.contact-div a {
+  font-weight: 400;
+}
+.contact-div i {
+  background: #2d2d2d;
+  font-size: 1.5rem;
+  padding: 5px;
   border-radius: 7px;
 }
-.contact .github-icon i {
-  font-size: 2.5rem;
+.contact-div .logo-img {
+  display: inline-block;
+  background: #ebebeb;
+  font-size: 1.5rem;
+  border-radius: 7px;
+  width: 34px;
+  height: 34px;
+  padding: 3px 0 0 0;
+}
+.contact-div .logo-img img {
+  height: 1.5rem;
+}
+.contact-div span {
+  margin: 0 0 0 0.25rem;
+  font-size: 1.25rem;
+}
+.contact .copy {
+  color: #aaaaaa;
+  text-align: right;
+  margin: 2rem 0 0 0;
 }
 
 /*# sourceMappingURL=/main.d8ebb8d6.css.map */
