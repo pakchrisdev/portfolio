@@ -4,14 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "parcel": "parcel index.html",
-    "gh-pages": "gh-pages -d dist"
+    "parcel": "parcel index.html --out-dir docs/"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "gh-pages": "^2.0.1",
     "sass": "^1.19.0"
   },
   "dependencies": {
