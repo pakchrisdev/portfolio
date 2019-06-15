@@ -4,15 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "parcel": "parcel index.html --out-dir docs/"
+    "parcel": "parcel index.html --out-dir docs/ --public-url /",
+    "build-parcel": "NODE_ENV=development parcel build index.html --out-dir docs/ --no-minify"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "parcel-bundler": "^1.12.3",
     "sass": "^1.19.0"
   },
-  "dependencies": {
-    "parcel": "^1.12.3"
-  }
+  "dependencies": {}
 }
