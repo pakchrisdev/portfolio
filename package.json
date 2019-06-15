@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "parcel": "parcel index.html --out-dir docs/ --public-url /",
-    "build-parcel": "NODE_ENV=development parcel build index.html --out-dir docs/ --no-minify"
+    "parcel": "parcel index.html --out-dir docs/ --public-url='./'"
   },
   "keywords": [],
   "author": "",
