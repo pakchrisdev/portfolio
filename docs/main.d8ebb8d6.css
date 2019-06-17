@@ -278,7 +278,7 @@ nav .nav-menu ul li a:hover {
 }
 
 .projects {
-  background-image: linear-gradient(rgba(200, 230, 255, 0.9), rgba(200, 230, 255, 0.9)), url(bg.7dcd4ced.jpg);
+  background-image: linear-gradient(rgba(200, 230, 255, 0.9), rgba(200, 230, 255, 0.9)), url(/bg.7dcd4ced.jpg);
   background-size: cover;
   background-position: center;
   padding: 5rem 0;
@@ -393,4 +393,4 @@ nav .nav-menu ul li a:hover {
   margin: 2rem 0 0 0;
 }
 
-/*# sourceMappingURL=main.d8ebb8d6.css.map */
+/*# sourceMappingURL=/main.d8ebb8d6.css.map */
