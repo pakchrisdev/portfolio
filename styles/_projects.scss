@@ -39,10 +39,12 @@
                     text-align:center; text-transform:uppercase;
                 }
                 .code{
-                    background:pink;
+                    background:rgb(206, 139, 150);
+                    color:rgb(230,230,230);
                 }
                 .site{
-                    background:yellow;
+                    background:rgb(185, 210, 243);
+                    color:rgb(70,70,70);
                 }
             }
             &-desk{width:33.3%}
